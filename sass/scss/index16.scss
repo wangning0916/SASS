@@ -1,0 +1,25 @@
+$width:200px;
+$height:200px;
+$color:#ff0000;
+$font:30px;
+
+
+.error{
+	width:$width;
+	height:$height;
+	border:1px solid #000;
+}
+.error a{
+	color:$color;
+	font-size:$font;
+}
+
+.demo{
+	@extend .error;
+}
+
+
+.disabled{
+	@extend a;
+	color:gray;
+}

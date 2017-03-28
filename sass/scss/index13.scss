@@ -1,0 +1,10 @@
+$width:300px;
+$height:150px;
+
+@each $index in demo1,demo2,demo3,demo4,demo5{
+	.#{$index}{
+		width:$width;
+		height:$height;
+		background:url("../images/#{$index}.png");
+	}
+}

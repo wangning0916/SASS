@@ -1,0 +1,26 @@
+
+@mixin right($value:200px){
+	float:right;
+	margin-right:$value;
+}
+
+.demo{
+	width:100px;
+	height:100px;
+	border:1px solid #333;
+	@include right(300px);
+}
+
+
+@mixin round($ver,$hor,$radius:10px){
+	border-#{$ver}-#{$hor}-radius:$radius;
+	-moz-border-radiu-#{$ver}-#{$hor}:$radius;
+	-wbekit-border-#{$ver}-#{$hor}-radiu:$radius;
+}
+
+.box{
+	width:100px;
+	height:100px;
+	background-color:orange;
+	@include round(top,left,30px);
+}

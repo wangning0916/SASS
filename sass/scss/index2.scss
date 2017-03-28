@@ -1,0 +1,17 @@
+$width:200px;
+$bg:#0cc;
+$border:1px solid #ddd;
+.demo{
+	width:$width;
+	border:$border;
+	background-color:$bg;
+
+	$height:200px;
+	height:$height;
+}
+
+.demo2{
+	width:$width;
+	border:$border;
+	height:200px;
+}

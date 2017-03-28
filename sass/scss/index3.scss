@@ -1,0 +1,9 @@
+$color:green;
+$border:1px solid $color;
+$width:200px;
+$height:200px;
+.demo{
+	width:$width;
+	height:$height;
+	border:$border;
+}

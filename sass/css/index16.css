@@ -1,0 +1,13 @@
+.error, .demo {
+  width: 200px;
+  height: 200px;
+  border: 1px solid #000; }
+
+.error a, .demo a, .error .disabled, .demo .disabled {
+  color: #ff0000;
+  font-size: 30px; }
+
+.disabled {
+  color: gray; }
+
+/*# sourceMappingURL=index16.css.map */

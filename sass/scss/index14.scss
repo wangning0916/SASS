@@ -1,0 +1,13 @@
+
+@function width($w){
+	@return $w*10;
+}
+
+$width:width(10px);
+$height:width(20px);
+
+.demo{
+	width:$width;
+	height:$height;
+	border:1px solid #ddd;
+}

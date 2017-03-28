@@ -1,0 +1,10 @@
+
+.demo2{width:100px;height:100px;border:1px solid #000;}
+.sub{width:100px;height:100px;background-color:orange;display:inline-block;}
+
+
+
+.demo{
+	& > .sub{background-color:#0dd;}
+	& + .demo2{background-color:#ff0000}
+}

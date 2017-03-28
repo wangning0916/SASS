@@ -1,0 +1,10 @@
+.demo a{
+	color:#666;
+	&:hover{color:#ff0000;}
+}
+
+
+.content h1{
+	color:#ff0000;
+	body ie &{color:#0cc;}
+}
